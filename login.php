@@ -91,8 +91,8 @@ if (isset($_POST['login'])) {
 
 function sendSms($phoneNumber, $message) {
     $apiUrl = 'https://panel4.ekomesaj.com:9588/sms/create'; // SMS API URL'si
-    $username = 'teknoyapikimyasal'; // API kullanıcı adı
-    $password = 'r1SM5nhSoJ6z'; // API şifresi
+    $username = 'kullanici_adi'; // API kullanıcı adı
+    $password = 'sifre'; // API şifresi
 
     // Basic Authentication için header ayarları
     $credentials = base64_encode("$username:$password");
